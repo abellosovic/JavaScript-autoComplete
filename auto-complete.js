@@ -4,8 +4,7 @@
     GitHub: https://github.com/Pixabay/JavaScript-autoComplete
     License: http://www.opensource.org/licenses/mit-license.php
 */
-
-var autoComplete = (function(){
+module.exports = (function(){
     // "use strict";
     function autoComplete(options){
         if (!document.querySelector) return;
@@ -210,13 +209,4 @@ var autoComplete = (function(){
         };
     }
     return autoComplete;
-})();
-
-(function(){
-    if (typeof define === 'function' && define.amd)
-        define('autoComplete', function () { return autoComplete; });
-    else if (typeof module !== 'undefined' && module.exports)
-        module.exports = autoComplete;
-    else
-        window.autoComplete = autoComplete;
 })();
