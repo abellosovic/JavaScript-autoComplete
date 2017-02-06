@@ -1,8 +1,8 @@
 {
   "name": "doof-autocomplete",
   "version": "1.0.0",
-  "description": "JavaScript-autoComplete ===================",
-  "main": "auto-complete.js",
+  "description": "Autocomplete library",
+  "main": "dist/auto-complete.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abellosovic/JavaScript-autoComplete/issues"
   },
-  "homepage": "https://github.com/abellosovic/JavaScript-autoComplete#readme"
+  "homepage": "https://github.com/abellosovic/JavaScript-autoComplete#README",
+  "devDependencies": {
+    "gulp-jsmin": "^0.1.5"
+  }
 }
